@@ -1,0 +1,13 @@
+/* bugSolution.css */
+.element {
+  color: blue;
+}
+
+#container .element {
+  color: red !important; /* Use !important only as a last resort */
+}
+
+/* Or better, use a more specific selector that doesn't require !important: */
+#container .element.specific {
+  color: red;
+}
